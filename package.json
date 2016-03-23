@@ -1,0 +1,28 @@
+{
+  "name": "restify-clean",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "eslint **.js",
+    "start": "node server.js | bunyan",
+    "cluster": "node server.js cluster | bunyan"
+  },
+  "author": {
+    "name": "Itamar Maltz",
+    "email": "oss@oii.me",
+    "url": "https://github.com/oiime"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "app-module-path": "^1.0.5",
+    "bunyan": "^1.4.0",
+    "restify": "^4.0.4",
+    "restify-json-schema-validation-middleware": "^2.0.0"
+  },
+  "engine": {
+    "node": ">=4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0"
+  }
+}
